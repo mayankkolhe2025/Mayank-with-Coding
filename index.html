@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brooklyn Gilbert - UX Designer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="logo">Brooklyn</div>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#portfolio">Portfolio</a>
+    </nav>
+    <!-- Contact Button -->
+<button onclick="toggleContact()" style="background-color: #9146D4; color: white; padding: 10px 20px; border: none; border-radius: 10px;">
+  Contact
+</button>
+
+<!-- Contact Info (Hidden by default) -->
+<div id="contactInfo" style="display: none; margin-top: 10px; color: white;">
+  <p>Email: mayankkolhe2007@gmail.com</p>
+  <p>Phone: 8208596280</p>
+  <p>Instagram: <a href="https://www.instagram.com/yt___mayank_m.v.k_" target="_blank" style="color: #FEC260;">@yt___mayank_m.v.k_</a></p>
+</div>
+
+<!-- Script to toggle contact info -->
+<script>
+  function toggleContact() {
+    var info = document.getElementById("contactInfo");
+    info.style.display = info.style.display === "none" ? "block" : "none";
+  }
+</script>
+
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h1>Hello, I'm <br><span>Mayank Kolhe</span></h1>
+      <p>I'm a freelance UX/UI Designer based in Nagpur Maharashtra. <br>I help brands turn their ideas into high-quality digital products.</p>
+      <a href="https://www.linkedin.com/in/pande-mama-733a9b300?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+        <button style="background-color: #6C4DD4; color: white; padding: 10px 20px; border: none; border-radius: 8px;">
+          Profile LinkedIn
+        </button>
+      </a>
+       
+      <div class="stats">
+        <div>1 Y.<br><span>Experience</span></div>
+        <div>250+<br><span>Projects</span></div>
+        <div>58<br><span>Clients</span></div>
+      </div>
+    </div>
+    <!--img/123.jpg as background-->
+    <div class="hero-image">
+      <img src="img000/420.png" alt="My Profile Photo" width="300">
+
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-image">
+      <img src="img000/123.png" alt="My Profile Photo" width="300">
+    </div>
+    <div class="about-text">
+      <h2>I am Professional User <br>Experience Designer</h2>
+      <p>I specialize in creating intuitive, user-friendly interfaces and experiences that elevate brands and captivate audiences. Let’s create something amazing together.</p>
+      <a href="#portfolio" class="btn-primary">My Project</a>
+      <a href="Shubham_Dhanraj_Shahare_CV.pdf" download>
+        <button style="border: 2px solid #6C4DD4; color: #6C4DD4; background-color: white; padding: 10px 20px; border-radius: 8px;">
+          Download CV
+        </button>
+      </a>
+      
+    </div>
+  </section>
+
+  <section class="process" id="process">
+    <h2>Work Process</h2>
+    <p>Learn more about my work methodology and how I deliver impactful results through a structured design workflow.</p>
+    <div class="process-steps">
+      <div class="step">
+        <h3>1. Research</h3>
+        <p>Understanding users and market needs thoroughly.</p>
+      </div>
+      <div class="step">
+        <h3>2. Analyze</h3>
+        <p>Translating research data into actionable insights.</p>
+      </div>
+      <div class="step">
+        <h3>3. Design</h3>
+        <p>Crafting intuitive and aesthetically pleasing interfaces.</p>
+      </div>
+      <div class="step">
+        <h3>4. Launch</h3>
+        <p>Delivering final product with all standards met.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <h2>Portfolio</h2>
+    <p>Here are a few design and UX/UI works available. Click on each project to view more details.</p>
+    <div class="portfolio-gallery">
+      <img src="img000/project img.png" alt="Project 1">
+      <img src="img000/project img1.png" alt="Project 2">
+      <img src="img000/project img2.png" alt="Project 3">
+    </div>
+  </section>
+</body>
+
+</html>
